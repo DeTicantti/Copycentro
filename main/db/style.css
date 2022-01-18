@@ -1,0 +1,102 @@
+@charset"utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background:#944345b9;
+
+}
+.container{
+	
+	width: 500px;
+	margin: 50px auto;
+
+}
+
+h1{
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 10px;
+	text-shadow: 1px 5px -5px #000;
+
+}
+
+
+.closeSession{
+	margin: 1rem auto !important;
+}
+
+
+	/*Estilos de formulario*/
+.contact{
+	float: left;
+	padding: 30px;
+	width: 100%;
+	box-sizing: border-box;
+	background: #fff;
+	font-size: 12px;
+	color: #666;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+
+}
+
+.contact label{
+	display: block;
+	margin: 0;
+
+}
+
+.contact label > span{
+	float: left;
+	margin-top: 10px;
+	color: #5e5e5e;
+}
+
+.contact input[type="text"], .contact input[type="email"], .contact input[type="password"], .contact input[type="number"], .contact input[type="date"], .contact input[type="file"], .contact textarea, .contact select{
+	color: #555;
+	line-height: 15px;
+	height: 30px;
+	width: 100%;
+	padding: 0 10px 0 0;
+	margin-top: 2px;
+	border: 1px solid #e5e5e5;
+	background: #fbfbfb;
+	box-shadow: inset 1px 1px 2px rgb(238,238,238, 0.2);
+}
+
+.contact textarea{
+	width: 100%;
+	padding-bottom: 60px;
+}
+
+.contact .send{
+	background-color: #696464;
+	border-radius: 5px;
+	border: none;
+	padding: 7px 18px;
+	color: #fff;
+	margin-top: 10px;
+}
+
+.contact .send:hover{
+	background-color: #c15658;
+}
+
+section article .map{
+	border:5px solid #6c6465;
+	width: 630px;
+	height: 350px;
+	
+	/*sombreado*/
+	-moz-box-shadow:1px 2px 5px #000000;
+	-webkit-box-shadow:1px 2px 5px #000000;
+	box-shadow: 1px 2px 5px #000000;
+	
+}
+

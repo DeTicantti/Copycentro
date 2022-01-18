@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("img/delfin.jpeg") no-repeat;
+    background-size: cover;
+}
+
+.imagen{
+    
+    max-width: 800px;
+    margin: 0 auto;
+    margin: 50px 0 -50px 0;
+    
+}
+.imagen img{
+    margin-left: 25%;
+}
+
+#toHome{
+    font-size: 12px;
+    font-weight: bold;
+    background:#edededa4;
+    padding: 10px;
+    border-radius: 13px 0;
+    margin: 220px auto;
+    width: 240px;
+    min-height:122px;
+    
+
+}
+
+
+
+#toHome label{
+    font-size: 1em;
+    font-weight: 900;
+    
+    width: 80px;
+   /* float: left;*/
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    margin:  5px auto;
+    border-radius: 20px;
+    padding: 4px;
+
+}
+#toHome p{
+    font-size: 1.2em;
+    text-align: center;
+    color: crimson;
+    padding: 5px;
+    
+}
+
+
+#bInicio, #pass, #name{
+   /* margin: 5px auto;*/
+    border-radius: 5px;
+    margin-bottom: 8px;
+    
+
+}
+
+#name{
+    margin-left: 16px;
+}
+#pass{
+    margin-left: 16px;
+}
+
+#bInicio{
+
+    margin: 8px 0 0 95px;
+}
+@media (max-width: 600px) {
+    .imagen{
+        margin-top: 50px;
+        margin-left: 60px;
+        margin-bottom: -70px;
+        width: auto;
+        
+        
+    }
+    .imagen img{
+        margin-left: 0;
+    }
+}
+@media (min-width: 1200px) {
+    
+    .imagen img{
+        margin-left: 55%;
+    }
+}
